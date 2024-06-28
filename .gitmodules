@@ -1,0 +1,3 @@
+[submodule "/Users/boda/.config/nvim"]
+	path = /Users/boda/.config/nvim
+	url = https://github.com/AstroNvim/template

@@ -8,9 +8,11 @@ Run `xcode-select --install` on a fresh macOS install.
 
 Install `nix` with the `nix-installer`: https://github.com/DeterminateSystems/nix-installer
 
-Look through codebase to change relevant user credentials (username, email, etc.)
+> ⚠️ Look through codebase to change relevant user detail (username, email, etc.)!
 
-Run `make`
+## Get Started
+
+Run `make` in the root directory to install all packages and setup the system.
 
 ## What's Included?
 
@@ -18,6 +20,8 @@ Run `make`
 - `homebrew` with bundle and cask
 - `zsh` with `starship`
 - `alacritty`
+- `neovim` with `astronvim`
+- `nodejs`, `python`
 
 ## Useful Links
 

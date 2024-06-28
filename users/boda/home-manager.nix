@@ -50,6 +50,8 @@ in {
 
   programs.vim.enable = true;
   programs.neovim.enable = true;
+  programs.zellij.enable = true;
+
   programs.ripgrep.enable = true;
   programs.lazygit.enable = true;
   programs.bottom.enable = true;
@@ -61,5 +63,8 @@ in {
     pkgs.gdu
     pkgs.jq
     pkgs.tree
+
+    pkgs.nodejs
+    pkgs.python312
   ];
 }
