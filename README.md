@@ -12,8 +12,10 @@ Run `make`
 
 ## What's Included?
 
-- Shell: `zsh`
-- Nix ecosystem: `nix-darwin`, `home-manager`
+- `zsh` with `starship`
+- `nix-darwin`, `home-manager`
+- `homebrew` with bundle and cask
+- `alacritty`
 
 ## Useful Links
 
@@ -28,6 +30,14 @@ Run `make`
 ### git tracking
 
 We may have to run `git add .` in repo root first for changes to be picked up.
+
+### Doesn't `homebrew`, `nix-darwin`, and `home-manager` conflict?
+
+Most times, if I want to install a package, I follow this order:
+
+1. `home-manager`
+2. `nix-darwin`
+3. `homebrew` (always use brew for GUI apps like Firefox)
 
 ### Existing `/etc/nix/nix.conf` file
 
