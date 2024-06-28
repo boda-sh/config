@@ -19,6 +19,8 @@
       "1password"
       "firefox"
       "google-chrome"
+      "mullvadvpn"
+      "notion"
       "raycast"
       "syncthing"
       "timing"
