@@ -25,6 +25,7 @@
       "syncthing"
       "timing"
       "visual-studio-code"
+      "vlc"
     ];
   };
 }

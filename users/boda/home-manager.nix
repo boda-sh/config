@@ -75,7 +75,7 @@ in {
     pkgs.jq
     pkgs.tree
 
-    pkgs.fnm # manages nodejs
+    pkgs.fnm # for nodejs
 
     pkgs.python312
   ];
