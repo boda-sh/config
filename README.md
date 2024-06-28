@@ -8,6 +8,8 @@ Run `xcode-select --install` on a fresh macOS install.
 
 Install `nix` with the `nix-installer`: https://github.com/DeterminateSystems/nix-installer
 
+Look through codebase to change relevant user credentials (username, email, etc.)
+
 Run `make`
 
 ## What's Included?
