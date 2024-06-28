@@ -21,6 +21,7 @@
       "google-chrome"
       "raycast"
       "syncthing"
+      "timing"
       "visual-studio-code"
     ];
   };
