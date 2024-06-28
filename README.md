@@ -58,3 +58,8 @@ Run `sudo -i nix upgrade-nix`
 ### How to clean up `nix`?
 
 Run `nix-collect-garbage -d`
+
+## Inspirations
+
+- https://github.com/mitchellh/nixos-config
+- https://github.com/dustinlyons/nixos-config
