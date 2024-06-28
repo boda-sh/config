@@ -29,6 +29,12 @@ in {
       "gs" = "git status";
     };
     initExtra = ''
+      # pyenv - python version manager
+      export PYENV_ROOT="$HOME/.pyenv"
+      [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+      eval "$(pyenv init -)"
+
+      # fnm - nodejs version manager
       eval "$(fnm env --use-on-cd)"
     '';
   };
@@ -71,12 +77,11 @@ in {
   home.packages = [
     pkgs.nerdfonts
 
+    pkgs.fnm # for nodejs
+    pkgs.pyenv # for python
+
     pkgs.gdu
     pkgs.jq
     pkgs.tree
-
-    pkgs.fnm # for nodejs
-
-    pkgs.python312
   ];
 }

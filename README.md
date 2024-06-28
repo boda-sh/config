@@ -21,9 +21,10 @@ Run `make` in the root directory to install all packages and setup the system.
 - `neovim` with `astronvim`
 - `nix-darwin`, `home-manager`
 - `nodejs` with `fnm`
-- `python`
+- `python` with `pyenv`
 - `zellij`
 - `zsh` with `starship`
+- etc...
 
 ## Useful Links
 
@@ -35,9 +36,7 @@ Run `make` in the root directory to install all packages and setup the system.
 
 ## FAQs
 
-### git tracking
-
-We may have to run `git add .` in repo root first for changes to be picked up.
+You may have to run `git add .` in repo root first for changes to be picked up.
 
 ### Doesn't `homebrew`, `nix-darwin`, and `home-manager` conflict?
 
