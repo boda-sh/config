@@ -42,6 +42,14 @@ in {
 
   programs.alacritty = {
     enable = true;
+    settings = {
+      font = {
+        size = 13;
+        normal = {
+          family = "Hack Nerd Font";
+        };
+      };
+    };
   };
 
   programs.vim = {

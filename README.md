@@ -35,11 +35,10 @@ We may have to run `git add .` in repo root first for changes to be picked up.
 
 ### Doesn't `homebrew`, `nix-darwin`, and `home-manager` conflict?
 
-Most times, if I want to install a package, I follow this order:
+Most times, if I want to install something, I follow this order:
 
-1. `home-manager`
-2. `nix-darwin`
-3. `homebrew` (always use brew for GUI apps like Firefox)
+1. see if `home-manager` programs supports it
+2. use `homebrew` through `nix-darwin` (always use brew for complex GUI apps like Firefox)
 
 ### Existing `/etc/nix/nix.conf` file
 
@@ -54,3 +53,7 @@ I use 1password to manage SSH and secrets, see https://developer.1password.com/d
 ### How to upgrade `nix`?
 
 Run `sudo -i nix upgrade-nix`
+
+### How to clean up `nix`?
+
+Run `nix-collect-garbage -d`
