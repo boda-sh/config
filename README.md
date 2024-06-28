@@ -14,9 +14,9 @@ Run `make`
 
 ## What's Included?
 
-- `zsh` with `starship`
 - `nix-darwin`, `home-manager`
 - `homebrew` with bundle and cask
+- `zsh` with `starship`
 - `alacritty`
 
 ## Useful Links
@@ -38,7 +38,8 @@ We may have to run `git add .` in repo root first for changes to be picked up.
 Most times, if I want to install something, I follow this order:
 
 1. see if `home-manager` programs supports it
-2. use `homebrew` through `nix-darwin` (always use brew for complex GUI apps like Firefox)
+2. install through `home-manager` packages
+3. use `homebrew` through `nix-darwin` (always use brew for complex GUI apps like Firefox)
 
 ### Existing `/etc/nix/nix.conf` file
 

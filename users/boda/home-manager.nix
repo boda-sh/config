@@ -8,11 +8,7 @@ let
 in {
   home.stateVersion = "24.05";
 
-  home.packages = [
-    pkgs.tree
-    pkgs.nerdfonts
-  ];
-
+  ### Programs ###
   programs.ssh = {
     enable = true;
     extraConfig = ''
@@ -52,11 +48,18 @@ in {
     };
   };
 
-  programs.vim = {
-    enable = true;
-  };
+  programs.vim.enable = true;
+  programs.neovim.enable = true;
+  programs.ripgrep.enable = true;
+  programs.lazygit.enable = true;
+  programs.bottom.enable = true;
 
-  programs.neovim = {
-    enable = true;
-  };
+  ### Packages ###
+  home.packages = [
+    pkgs.nerdfonts
+
+    pkgs.gdu
+    pkgs.jq
+    pkgs.tree
+  ];
 }
