@@ -1,4 +1,4 @@
-# My dotfiles (managed by nix with macOS)
+# My dotfiles (managed by nix on macOS)
 
 I store my dotfiles in the `~/.config` directory, and manage them with `nix` on macOS.
 
