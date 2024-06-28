@@ -39,4 +39,16 @@ in {
       init.defaultBranch = "main";
     };
   };
+
+  programs.alacritty = {
+    enable = true;
+  };
+
+  programs.vim = {
+    enable = true;
+  };
+
+  programs.neovim = {
+    enable = true;
+  };
 }
