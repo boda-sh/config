@@ -1,8 +1,9 @@
 .DS_Store
 
 # compiled
-result
-raycast/
-git/
 alacritty/
+configstore/
+git/
+raycast/
+result
 

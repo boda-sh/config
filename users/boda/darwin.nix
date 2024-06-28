@@ -10,11 +10,17 @@
   homebrew = {
     # this is a module from nix-darwin, but homebrew is installed via nix-homebrew
     enable = true;
+
+    # use brew for the lastest versions of a package
+    brews = [
+    ];
+
     casks = [
       "1password"
       "firefox"
       "google-chrome"
       "raycast"
+      "syncthing"
       "visual-studio-code"
     ];
   };
