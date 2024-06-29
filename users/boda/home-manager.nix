@@ -25,6 +25,7 @@ in {
     shellAliases = {
       ".." = "cd ..";
       "ga" = "git add .";
+      "gf" = "git fetch && git pull";
       "gp" = "git push";
       "gs" = "git status";
     };
