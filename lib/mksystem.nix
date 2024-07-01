@@ -22,8 +22,13 @@ in systemFunc rec {
   inherit system;
 
   modules = [
+    ({ pkgs, ... }: {
+      nixpkgs.overlays = [ inputs.rust-overlay.overlays.default ];
+    })
+
     machineConfig
     userOSConfig
+
     home-manager.home-manager {
       home-manager.useGlobalPkgs = true;
       home-manager.useUserPackages = true;

@@ -22,6 +22,7 @@ Run `make` in the root directory to install all packages and setup the system.
 - `nix-darwin`, `home-manager`
 - `nodejs` with `fnm`
 - `python` with `pyenv`
+- `rust`
 - `zellij`
 - `zsh` with `starship`
 - etc...

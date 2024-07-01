@@ -21,4 +21,9 @@
     '';
 
   environment.shells = with pkgs; [ zsh ];
+
+  # Add Rust to system packages
+  environment.systemPackages = with pkgs; [
+    rust-bin.stable.latest.default
+  ];
 }

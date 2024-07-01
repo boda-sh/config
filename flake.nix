@@ -23,9 +23,13 @@
       url = "github:homebrew/homebrew-cask";
       flake = false;
     };
+    rust-overlay = {
+      url = "github:oxalica/rust-overlay";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
-  outputs = { self, darwin, nix-homebrew, homebrew-bundle, homebrew-core, homebrew-cask, home-manager, nixpkgs } @inputs:
+  outputs = { self, darwin, nix-homebrew, homebrew-bundle, homebrew-core, homebrew-cask, home-manager, nixpkgs, rust-overlay } @inputs:
     let
       mkSystem = import ./lib/mksystem.nix {
         inherit nixpkgs inputs;
@@ -34,7 +38,7 @@
     in {
       darwinConfigurations.mac-mini-m1 = mkSystem "mac-mini-m1" {
         system = "aarch64-darwin";
-	user = "boda";
+	      user = "boda";
       };
     };
 }
