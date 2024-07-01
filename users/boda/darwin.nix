@@ -18,6 +18,7 @@
     casks = [
       "1password"
       "firefox"
+      "flux"
       "google-chrome"
       "mullvadvpn"
       "notion"
