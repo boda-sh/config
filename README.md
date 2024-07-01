@@ -8,7 +8,7 @@ Run `xcode-select --install` on a fresh macOS install.
 
 Install `nix` with the `nix-installer`: https://github.com/DeterminateSystems/nix-installer
 
-> ⚠️ Look through codebase to change relevant user detail (username, email, etc.)!
+> ⚠️ Look through codebase to change relevant user detail (pc name, username, email, etc.)!
 
 ## Get Started
 
