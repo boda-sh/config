@@ -23,6 +23,7 @@
       "mullvadvpn"
       "notion"
       "raycast"
+      "slack"
       "syncthing"
       "timing"
       "visual-studio-code"
