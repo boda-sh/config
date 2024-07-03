@@ -81,6 +81,7 @@ in {
     pkgs.fnm # for nodejs
     pkgs.pyenv # for python
 
+    pkgs.croc
     pkgs.gdu
     pkgs.jq
     pkgs.tree
