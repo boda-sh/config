@@ -26,4 +26,13 @@
   environment.systemPackages = with pkgs; [
     rust-bin.stable.latest.default
   ];
+
+  system = {
+    defaults = {
+      dock = {
+        orientation = "right";
+        tilesize = 32;
+      };
+    };
+  };
 }
