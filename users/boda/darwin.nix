@@ -17,6 +17,7 @@
 
     casks = [
       "1password"
+      "arc"
       "firefox"
       "flux"
       "google-chrome"
