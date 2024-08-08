@@ -26,6 +26,7 @@ in {
       ".." = "cd ..";
       "ga" = "git add .";
       "gf" = "git fetch && git pull";
+      "gm" = "git switch main";
       "gp" = "git push";
       "gs" = "git status";
     };
