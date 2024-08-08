@@ -12,7 +12,7 @@ Install `nix` with the `nix-installer`: https://github.com/DeterminateSystems/ni
 
 ## Get Started
 
-Run `make` in the root directory to install all packages and setup the system.
+Run `make` in the root directory to install all packages and setup the system, and whenever you want to update the system.
 
 ## What's Included?
 
