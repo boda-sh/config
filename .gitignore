@@ -1,9 +1,9 @@
 .DS_Store
-
-# compiled
 alacritty/
 configstore/
 git/
+github-copilot/
+qBittorrent/
 raycast/
 result
-qBittorrent/
+zed/
