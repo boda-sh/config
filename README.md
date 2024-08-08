@@ -8,11 +8,15 @@ Run `xcode-select --install` on a fresh macOS install.
 
 Install `nix` with the `nix-installer`: https://github.com/DeterminateSystems/nix-installer
 
-> ⚠️ Look through codebase to change relevant user detail (pc name, username, email, etc.)!
-
 ## Get Started
 
-Run `make` in the root directory to install all packages and setup the system, and whenever you want to update the system.
+- ⚠️ Look through codebase to change relevant user detail (pc name, username, email, etc.)!
+- Run `make` from the root directory to install all packages and setup the system
+
+## Daily Operations
+
+- Make changes (add apps, edit configs, etc.)
+- Run `make` from the root directory
 
 ## What's Included?
 
