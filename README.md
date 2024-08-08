@@ -24,7 +24,7 @@ Install `nix` with the `nix-installer`: https://github.com/DeterminateSystems/ni
 - `homebrew` with bundle and cask
 - `neovim` with `astronvim`
 - `nix-darwin`, `home-manager`
-- `nodejs` with `fnm`
+- `nodejs` with `fnm`, then `npm i -g bun/pnpm/yarn/etc...`
 - `python` with `pyenv`
 - `rust`
 - `zellij`
