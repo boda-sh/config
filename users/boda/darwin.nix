@@ -15,13 +15,13 @@
     brews = [
     ];
 
+    # casks are usually GUI apps
     casks = [
       "1password"
       "arc"
       "firefox"
       "flux"
       "google-chrome"
-      "mullvadvpn"
       "notion"
       "raycast"
       "slack"
