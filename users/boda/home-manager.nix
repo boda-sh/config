@@ -31,6 +31,9 @@ in {
       "gs" = "git status";
     };
     initExtra = ''
+      # homebrew
+      export PATH="/opt/homebrew/bin:$PATH"
+
       # pyenv - python version manager
       export PYENV_ROOT="$HOME/.pyenv"
       [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"

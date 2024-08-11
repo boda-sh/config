@@ -13,6 +13,7 @@
 
     # use brew for the lastest versions of a package
     brews = [
+      "azure-cli"
     ];
 
     # casks are usually GUI apps
