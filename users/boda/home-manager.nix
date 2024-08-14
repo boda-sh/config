@@ -84,6 +84,7 @@ in {
 
     pkgs.fnm # for nodejs
     pkgs.pyenv # for python
+    pkgs.postgresql_16
 
     pkgs.croc
     pkgs.gdu
