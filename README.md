@@ -16,6 +16,7 @@ Install `nix` with the `nix-installer`: https://github.com/DeterminateSystems/ni
 ## Daily Operations
 
 - Make changes (add apps, edit configs, etc.)
+- (Optional) Run `nix flake update`
 - Run `make` from the root directory
 
 ## What's Included?
