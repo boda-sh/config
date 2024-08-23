@@ -8,7 +8,6 @@ let
 in {
   home.stateVersion = "24.05";
 
-  ### Programs ###
   programs.ssh = {
     enable = true;
     extraConfig = ''
@@ -69,16 +68,22 @@ in {
     };
   };
 
+  # editors
   programs.vim.enable = true;
   programs.neovim.enable = true;
   programs.zellij.enable = true;
 
+  # util CLIs
+  programs.bat.enable = true;
   programs.bottom.enable = true;
+  programs.fd.enable = true;
+  programs.fzf.enable = true;
+  programs.jq.enable = true;
   programs.lazygit.enable = true;
   programs.lsd.enable = true;
   programs.ripgrep.enable = true;
 
-  ### Packages ###
+  # if not found with home-manager
   home.packages = [
     pkgs.nerdfonts
 
@@ -88,7 +93,6 @@ in {
 
     pkgs.croc
     pkgs.gdu
-    pkgs.jq
     pkgs.tree
   ];
 }
