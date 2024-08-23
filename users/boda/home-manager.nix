@@ -76,6 +76,7 @@ in {
   # util CLIs
   programs.bat.enable = true;
   programs.bottom.enable = true;
+  programs.fastfetch.enable = true;
   programs.fd.enable = true;
   programs.fzf.enable = true;
   programs.jq.enable = true;
