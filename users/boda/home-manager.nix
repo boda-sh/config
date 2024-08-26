@@ -60,7 +60,7 @@ in {
     enable = true;
     settings = {
       font = {
-        size = 13;
+        size = 16;
         normal = {
           family = "Hack Nerd Font";
         };
