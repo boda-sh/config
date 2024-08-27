@@ -53,6 +53,10 @@ in {
     userEmail = "bodazhao@gmail.com";
     extraConfig = {
       init.defaultBranch = "main";
+      user.signingkey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBSsZx4gVoRPwCWgRPNqwCk684zyO9X4TtL9SG9RAgHH";
+      gpg.format = "ssh";
+      "gpg \"ssh\"".program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign";
+      commit.gpgsign = true;
     };
   };
 
