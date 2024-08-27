@@ -88,7 +88,7 @@ in {
   programs.lsd.enable = true;
   programs.ripgrep.enable = true;
 
-  # if not found with home-manager
+  # if not found with home-manager programs, search nix packages
   home.packages = [
     pkgs.nerdfonts
 
