@@ -1,9 +1,12 @@
 .DS_Store
+1Password/
 alacritty/
 configstore/
+gcloud/
 git/
 github-copilot/
 qBittorrent/
 raycast/
 result
+starship.toml
 zed/
