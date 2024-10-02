@@ -3,8 +3,8 @@
 {
   # the user should already exist, but we need to set this so Nix knows
   # what our home directory is (https://github.com/LnL7/nix-darwin/issues/423)
-  users.users.boda = {
-    home = "/Users/boda";
+  users.users.mini = {
+    home = "/Users/mini";
   };
 
   homebrew = {

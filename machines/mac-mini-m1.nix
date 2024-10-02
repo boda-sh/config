@@ -28,6 +28,7 @@
   ];
 
   system = {
+    stateVersion = 5;   
     defaults = {
       dock = {
         orientation = "right";

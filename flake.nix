@@ -38,7 +38,7 @@
     in {
       darwinConfigurations.mac-mini-m1 = mkSystem "mac-mini-m1" {
         system = "aarch64-darwin";
-	      user = "boda";
+        user = "mini";
       };
     };
 }

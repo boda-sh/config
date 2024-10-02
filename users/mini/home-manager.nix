@@ -40,10 +40,6 @@ in {
 
       # fnm - nodejs version manager
       eval "$(fnm env --use-on-cd)"
-
-      # google cloud
-      if [ -f '/Users/boda/Developer/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/boda/Developer/google-cloud-sdk/path.zsh.inc'; fi
-      if [ -f '/Users/boda/Developer/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/boda/Developer/google-cloud-sdk/completion.zsh.inc'; fi
     '';
   };
 
