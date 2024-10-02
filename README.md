@@ -4,9 +4,13 @@ I store my dotfiles in the `~/.config` directory, and manage them with `nix` on 
 
 ## Prerequisites
 
+> Tested on macOS Sequoia 15, nix-installer v0.27 and nix v2.24.9
+
 Run `xcode-select --install` on a fresh macOS install.
 
 Install `nix` with the `nix-installer`: https://github.com/DeterminateSystems/nix-installer
+
+Clone this repo to `~/.config`
 
 ## Get Started
 
@@ -34,7 +38,7 @@ Install `nix` with the `nix-installer`: https://github.com/DeterminateSystems/ni
 
 ## Useful Links
 
-- `nix` documentation: https://nix.dev/manual/nix/2.22/
+- `nix` documentation: https://nix.dev/manual/nix/
 - Search `nix` packages: https://search.nixos.org/packages
 - `nix-darwin` documentation: https://daiderd.com/nix-darwin/manual/index.html
 - `home-manager` documentation: https://nix-community.github.io/home-manager/
