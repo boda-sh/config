@@ -33,10 +33,11 @@ in {
       # homebrew
       export PATH="/opt/homebrew/bin:$PATH"
 
-      # pyenv - python version manager
-      export PYENV_ROOT="$HOME/.pyenv"
-      [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-      eval "$(pyenv init -)"
+      # miniconda
+      eval "$(conda "shell.$(basename $SHELL)" hook)"
+      # conda config --add channels conda-forge
+      # conda config --set channel_priority strict
+      conda activate py312
 
       # fnm - nodejs version manager
       eval "$(fnm env --use-on-cd)"
@@ -67,7 +68,7 @@ in {
     enable = true;
     settings = {
       font = {
-        size = 14;
+        size = 13;
         normal = {
           family = "Hack Nerd Font";
         };
@@ -96,7 +97,6 @@ in {
     pkgs.nerdfonts
 
     pkgs.fnm # for nodejs
-    pkgs.pyenv # for python
     pkgs.postgresql_16
 
     pkgs.croc

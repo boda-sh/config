@@ -24,6 +24,7 @@
       "firefox"
       "flux"
       "google-chrome"
+      "miniconda"
       "notion"
       "raycast"
       "slack"

@@ -30,7 +30,7 @@ Clone this repo to `~/.config`
 - `neovim` with `astronvim`
 - `nix-darwin`, `home-manager`
 - `nodejs` with `fnm`, then `npm i -g bun/pnpm/yarn/etc...`
-- `python` with `pyenv`
+- `python` with `miniconda`
 - `rust`
 - `zellij`
 - `zsh` with `starship`
