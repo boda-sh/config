@@ -37,6 +37,7 @@ in {
       eval "$(conda "shell.$(basename $SHELL)" hook)"
       # conda config --add channels conda-forge
       # conda config --set channel_priority strict
+      conda create -y -n py312 python=3.12
       conda activate py312
 
       # fnm - nodejs version manager
