@@ -15,6 +15,7 @@
     brews = [
       "azure-cli"
       "flyctl"
+      "pnpm"
     ];
 
     # casks are usually GUI apps
