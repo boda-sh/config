@@ -51,6 +51,11 @@ in {
         *) export PATH="$PNPM_HOME:$PATH" ;;
       esac
       # pnpm end
+
+      # zsh shell completions
+      fpath=(~/.config/zsh $fpath)
+      autoload -Uz compinit
+      compinit -u
     '';
   };
 
