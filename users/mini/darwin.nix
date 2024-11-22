@@ -17,6 +17,8 @@
       "deno"
       "flyctl"
       "pnpm"
+      "ruby"
+      "sqlite"
     ];
 
     # casks are usually GUI apps
@@ -27,7 +29,6 @@
       "flux"
       "google-chrome"
       "miniconda"
-      "notion"
       "raycast"
       "slack"
       "syncthing"

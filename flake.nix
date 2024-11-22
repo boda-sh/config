@@ -29,7 +29,17 @@
     };
   };
 
-  outputs = { self, darwin, nix-homebrew, homebrew-bundle, homebrew-core, homebrew-cask, home-manager, nixpkgs, rust-overlay } @inputs:
+  outputs = {
+    self,
+    darwin,
+    nix-homebrew,
+    homebrew-bundle,
+    homebrew-core,
+    homebrew-cask,
+    home-manager,
+    nixpkgs,
+    rust-overlay,
+  } @inputs:
     let
       mkSystem = import ./lib/mksystem.nix {
         inherit nixpkgs inputs;

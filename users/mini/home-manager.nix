@@ -30,8 +30,10 @@ in {
       "gs" = "git status";
     };
     initExtra = ''
-      # homebrew
+      # homebrew paths
       export PATH="/opt/homebrew/bin:$PATH"
+      export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+      export PATH="/opt/homebrew/opt/sqlite/bin:$PATH"
 
       # miniconda
       eval "$(conda "shell.$(basename $SHELL)" hook)"
