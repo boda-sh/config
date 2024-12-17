@@ -14,6 +14,7 @@
     # use brew for the lastest versions of a package
     brews = [
       "azure-cli"
+      "datasette"
       "deno"
       "flyctl"
       "pnpm"

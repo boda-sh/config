@@ -35,6 +35,11 @@ in {
       export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
       export PATH="/opt/homebrew/opt/sqlite/bin:$PATH"
 
+      # zsh shell completions
+      fpath=(~/.config/zsh $fpath)
+      autoload -Uz compinit
+      compinit -u
+
       # miniconda
       eval "$(conda "shell.$(basename $SHELL)" hook)"
       # conda config --add channels conda-forge
@@ -42,6 +47,8 @@ in {
       # conda config --set changeps1 False
       # conda create -y -n py313 python=3.13
       conda activate py313
+
+      eval "$(register-python-argcomplete pipx)"
 
       # fnm - nodejs version manager
       eval "$(fnm env --use-on-cd)"
@@ -53,11 +60,6 @@ in {
         *) export PATH="$PNPM_HOME:$PATH" ;;
       esac
       # pnpm end
-
-      # zsh shell completions
-      fpath=(~/.config/zsh $fpath)
-      autoload -Uz compinit
-      compinit -u
     '';
   };
 
